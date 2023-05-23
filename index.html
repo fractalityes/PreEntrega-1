@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Preguntas</h1>
+        <p>Juego de Hongos</p>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1 - ¿Qué hongo tiene propiedades Miorrelajante, Antiinflamatorio, Antioxidante natural, Antienvejecimiento, favorece el equilibrio, protección del daño celular y promueve la circulación sanguínea.?</h3> 
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Shitake
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Portobelo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Enoky
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> Reishi
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2 - ¿Qué hongo tiene propiedades neuroprotectoras, previene enfermedades neurodegenerativas, es antidepresivo, trata la enfermedad inflamatoria intestinal al regular la inmunidad y la microbiota intestinal.?</h3> 
+            <label>
+                <input type="radio" value="1" name="p0"onclick="respuesta(1,this)"> Melena de Leon
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0"onclick="respuesta(1,this)"> Psilocybe
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0"onclick="respuesta(1,this)"> Reishi
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0"onclick="respuesta(1,this)"> Oreja de Judas
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3 - ¿Que hongo tiene propiedades  que ayudan a tratar la depresión, la ansiedad, el trauma y la adicción.?</h3> 
+            <label>
+                <input type="radio" value="1" name="p0"onclick="respuesta(2,this)"> Cola de Pavo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0"onclick="respuesta(2,this)"> Psilocybe
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0"onclick="respuesta(2,this)"> Penicilium
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0"onclick="respuesta(2,this)"> Morilla
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4 - ¿Que hongo facilita la digestión, fortalece el sistema inmunológico al mantener la flora intestinal sana, combate la inflamación intestinal, previene y combate la gastritis, combate la osteoporosis, favorece la reducción de peso y reduce el estreñimiento.</h3> 
+            <label>
+                <input type="radio" value="1" name="p0"onclick="respuesta(3,this)"> Girgola
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0"onclick="respuesta(3,this)"> Kefir
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0"onclick="respuesta(3,this)"> Maitake
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0"onclick="respuesta(3,this)"> Polyporus
+            </label>
+        </section>
+        <button>CORREGIR</button>
+        <H2>Cantidad Correctas: <span id="resultado"></span>
+        </H2>
+    </div>
+    <script src="./page.js"></script>
+    
+</body>
+</html>
